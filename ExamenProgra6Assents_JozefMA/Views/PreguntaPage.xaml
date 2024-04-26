@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenProgra6Assents_JozefMA.Views.PreguntaPage">
+    <StackLayout>
+
+        <Label Text="Detalles de la Pregunta" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" Margin="10"/>
+
+        <StackLayout Margin="20">
+            <Label Text="ID de Pregunta:"/>
+            <Entry Placeholder="Ingrese el ID de la Pregunta" Margin="0 5"/>
+
+            <Label Text="Fecha:"/>
+            <DatePicker Margin="0 5"/>
+
+            <Label Text="Pregunta:"/>
+            <Editor Placeholder="Ingrese la Pregunta" HeightRequest="100" Margin="0 5"/>
+
+            <Label Text="ID de Usuario:"/>
+            <Entry Placeholder="Ingrese el ID de Usuario" Margin="0 5"/>
+
+            <Label Text="ID de Estado de Pregunta:"/>
+            <Entry Placeholder="Ingrese el ID de Estado de Pregunta" Margin="0 5"/>
+
+            <Label Text="¿Es Huelga?"/>
+            <Switch Margin="0 5"/>
+
+            <Label Text="URL de la Imagen:"/>
+            <Entry Placeholder="Ingrese la URL de la Imagen" Margin="0 5"/>
+
+            <Label Text="Preguntar Detalles:"/>
+            <Editor Placeholder="Ingrese los Detalles de la Pregunta" HeightRequest="100" Margin="0 5"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Margin="10">
+            <Button Text="Guardar" WidthRequest="100" Margin="5"/>
+            <Button Text="Cancelar" WidthRequest="100" Margin="5"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
+
